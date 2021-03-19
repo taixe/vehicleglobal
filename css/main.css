@@ -6,6 +6,36 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+.btn-store {
+  color: #111111;
+  min-width: 210px;
+  max-width: 210px;
+  padding: 12px 20px !important;
+  border-color: #dddddd !important;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px 24px 8px;
+ 
+  margin-right: 10px;
+  border: 1px solid #dddddd;
+}
+
+.btn-store:focus, 
+.btn-store:hover {
+  color: #ffffff !important;
+  background-color: #168eea;
+  border-color: #168eea !important;
+}
+
+.btn-store .btn-label, 
+.btn-store .btn-caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+}
+
+.btn-store .btn-caption {
+  font-size: 24px;
+}
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #46dbf9;
@@ -1861,6 +1891,48 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
+  .home-banner-area-ch {
+    background: url(../img/websitebaner_optimized.jpg) center;
+    background-size: cover; }
+    .home-banner-area .banner-img {
+      text-align: right; }
+      @media (max-width: 1440px) {
+        .home-banner-area .banner-img {
+          text-align: left; }
+          .home-banner-area .banner-img img {
+            width: 60%; } }
+      @media (max-width: 991px) {
+        .home-banner-area .banner-img {
+          text-align: center; } }
+      @media (max-width: 767px) {
+        .home-banner-area .banner-img {
+          display: none; } }
+    @media (max-width: 991px) {
+      .home-banner-area .fullscreen {
+        height: 700px !important; } }
+
+        
+
+
+.home-banner-area {
+  background: url(../img/home-banner-bg.jpg) center;
+  background-size: cover; }
+  .home-banner-area .banner-img {
+    text-align: right; }
+    @media (max-width: 1440px) {
+      .home-banner-area .banner-img {
+        text-align: left; }
+        .home-banner-area .banner-img img {
+          width: 60%; } }
+    @media (max-width: 991px) {
+      .home-banner-area .banner-img {
+        text-align: center; } }
+    @media (max-width: 767px) {
+      .home-banner-area .banner-img {
+        display: none; } }
+  @media (max-width: 991px) {
+    .home-banner-area .fullscreen {
+      height: 700px !important; } }
 .home-banner-area {
   background: url(../img/home-banner-bg.jpg) center;
   background-size: cover; }
